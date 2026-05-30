@@ -22,10 +22,11 @@ This project walks through a basic PCA workflow:
 
 The project uses a CSV file named:
 
-```text`
+```text
 digits.csv
+```
 The dataset contains handwritten digit image data where:
 
 - Each row represents one digit image
 - Pixel columns represent the intensity values of the image
--``number_label` represents the actual digit class
+-`number_label` represents the actual digit class
