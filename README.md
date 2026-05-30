@@ -30,6 +30,7 @@ The dataset contains handwritten digit image data where:
 - Each row represents one digit image
 - Pixel columns represent the intensity values of the image
 -`number_label` represents the actual digit class
+```text
 
 PCA-Calculation/
 ├── PCA calculation.ipynb
@@ -38,6 +39,7 @@ PCA-Calculation/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## Technologies Used
 
