@@ -96,6 +96,7 @@ The notebook generates:
 - A 3D PCA scatter plot of digit clusters
 
 ## Project Workflow
+```text
 Load Dataset
      ↓
 Separate Features and Labels
@@ -109,11 +110,20 @@ Apply PCA
 Analyze Explained Variance
      ↓
 Visualize PCA Components
+```
 
 ## Requirements
+```text
 numpy
 pandas
 matplotlib
 seaborn
 scikit-learn
 jupyter
+```
+## Author
+
+**Protyay Saha**
+
+- GitHub: [rivu-intel45](https://github.com/rivu-intel45)
+- LinkedIn: [Protyay Saha](https://www.linkedin.com/in/protyay-saha-12a892333)
