@@ -30,3 +30,88 @@ The dataset contains handwritten digit image data where:
 - Each row represents one digit image
 - Pixel columns represent the intensity values of the image
 -`number_label` represents the actual digit class
+
+PCA-Calculation/
+├── PCA calculation.ipynb
+├── data/
+│   └── digits.csv
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+## Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## Key Concepts Covered
+
+- Principal Component Analysis
+- Dimensionality Reduction
+- Data Standardization
+- Feature Scaling
+- 2D Data Visualization
+- 3D Data Visualization
+- Explained Variance Ratio
+
+---
+
+## Installation
+
+Clone the repository:
+```text
+git clone https://github.com/your-username/PCA-Calculation.git
+cd PCA-Calculation
+```
+
+Install the required libraries:
+```text
+pip install -r requirements.txt
+```
+
+## How to Run
+Open the notebook:
+```text
+jupyter notebook "PCA calculation.ipynb"
+```
+Then run all cells from top to bottom.
+
+## Output Visualizations
+
+The notebook generates:
+
+- A grayscale image visualization of a handwritten digit
+- A heatmap of pixel intensity values
+- A 2D PCA scatter plot
+- A colored 2D PCA scatter plot by digit label
+- A 3D PCA scatter plot of digit clusters
+
+## Project Workflow
+Load Dataset
+     ↓
+Separate Features and Labels
+     ↓
+Visualize Sample Digit
+     ↓
+Standardize Pixel Values
+     ↓
+Apply PCA
+     ↓
+Analyze Explained Variance
+     ↓
+Visualize PCA Components
+
+## Requirements
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+jupyter
